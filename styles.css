@@ -1,0 +1,186 @@
+body{
+  font-family: 'Montserrat';
+  text-align: left;
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 12%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+ #title{
+  background-color: #ff4c68;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#navbarTogglerDemo02{
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+}
+
+.navbar{
+  padding: 0rem 0rem 4rem 0rem;
+}
+
+/* Important note */
+
+.nav-item{
+  padding: 0rem 0.8rem;
+}
+
+.nav-link{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: white;
+}
+
+.down-but{
+  margin-top: 2.5rem;
+}
+
+/* title-image */
+
+.iphone{
+  width: 50%;
+  transform: rotate(25deg);
+  right: 30%;
+  /* position: absolute; */
+  /* object-fit: none; */
+}
+
+#features{
+  text-align: center;
+  color: #ff4c68;
+  padding: 7% 10%;
+  background-color: white;
+}
+
+.tabs{
+  padding: 3.5%;
+}
+
+.tabs>h3{
+  padding-top:10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'Montserrat'
+}
+
+.tabs>p{
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.aw:hover{
+  color: #ef8172;
+}
+
+#testimonials{
+  padding: 7% 10%;
+  background-color:#ff4c68;
+  text-align: center;
+  color: white;
+
+}
+
+#testimonials>h2{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 2.75rem;
+}
+
+#testimonials>img{
+  margin: 20px;
+  width: 15%;
+  border-radius: 100%;
+}
+
+#press{
+  padding: 0% 0% 5% 0%;
+  background-color:#ff4c68;
+  text-align: center;
+}
+
+#press>img{
+  width: 20%;
+  padding: 0px 25px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing>h2{
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta{
+  padding: 7% 10%;
+  background-color:#ff4c68;
+  text-align: center;
+  color: white;
+}
+
+.big-heading{
+  font-size: 3rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+/* Footer Section */
+
+#footer{
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
